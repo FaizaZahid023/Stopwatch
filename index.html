@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-wacth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stopwatch">
+        <h1>Stop Wacth</h1>
+        <span id="hr" class="digit">00</span><span class="text">Hr</span>
+        <span id="min" class="digit">00</span><span class="text">Min</span>
+        <span id="sec" class="digit">00</span><span class="text">Sec</span>
+        <span id="count" class="digit">00</span>
+        <br>
+        <br>
+        <button onclick="start()" id="start">Start</button>
+        <button onclick="stop()" id="stop" class="stop">Stop</button>
+        <button onclick="reset()" id="reset" class="reset">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
